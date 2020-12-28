@@ -11,3 +11,16 @@ C:\Users\dmitr\source\repos\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CoreCompile
 C:\Users\dmitr\source\repos\Lab5\obj\Debug\netcoreapp3.1\Lab5.dll
 C:\Users\dmitr\source\repos\Lab5\obj\Debug\netcoreapp3.1\Lab5.pdb
 C:\Users\dmitr\source\repos\Lab5\obj\Debug\netcoreapp3.1\Lab5.genruntimeconfig.cache
+E:\SFEDU\labs\oop\lab5\Lab5\bin\Debug\netcoreapp3.1\Lab5.exe
+E:\SFEDU\labs\oop\lab5\Lab5\bin\Debug\netcoreapp3.1\Lab5.deps.json
+E:\SFEDU\labs\oop\lab5\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.json
+E:\SFEDU\labs\oop\lab5\Lab5\bin\Debug\netcoreapp3.1\Lab5.runtimeconfig.dev.json
+E:\SFEDU\labs\oop\lab5\Lab5\bin\Debug\netcoreapp3.1\Lab5.dll
+E:\SFEDU\labs\oop\lab5\Lab5\bin\Debug\netcoreapp3.1\Lab5.pdb
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.csprojAssemblyReference.cache
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfoInputs.cache
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.AssemblyInfo.cs
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.csproj.CoreCompileInputs.cache
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.dll
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.pdb
+E:\SFEDU\labs\oop\lab5\Lab5\obj\Debug\netcoreapp3.1\Lab5.genruntimeconfig.cache

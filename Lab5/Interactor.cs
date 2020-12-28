@@ -35,7 +35,7 @@ namespace Lab5
                 {
                     if (_memories != null)
                     {
-                        Console.WriteLine("Pare #1 (3 nums, Date, DD-MM-YYYY) - ");
+                        Console.WriteLine("Date, DD-MM-YYYY:");
                         Console.WriteLine("Day:");
                         var a = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Month:");
@@ -44,7 +44,7 @@ namespace Lab5
                         var c = Convert.ToInt32(Console.ReadLine());
                         var date = new Date(a, b, c);
 
-                        Console.WriteLine("Pare #1 (3 nums, Time, HH-MM-SS):");
+                        Console.WriteLine("Time, HH-MM-SS:");
                         Console.WriteLine("Hours:");
                         c = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Minutes:");
@@ -84,6 +84,7 @@ namespace Lab5
         {
             if (_memories != null)
             {
+                Console.WriteLine("Index:");
                 var index = Convert.ToInt32(Console.ReadLine());
                 if (_memories.GetPair(index) == null)
                 {
@@ -171,8 +172,8 @@ namespace Lab5
                         if (t1 != null && t2 != null)
                         {
                             Console.Write(i + ") ");
-                            Console.Write(t1.Get(TriadNumber.FIRST) + "-" + t1.Get(TriadNumber.SECOND) + "-" + t1.Get(TriadNumber.THIRD) + "  ");
-                            Console.Write(t2.Get(TriadNumber.THIRD) + "-" + t2.Get(TriadNumber.SECOND) + "-" + t2.Get(TriadNumber.FIRST) + "\n");
+                            Console.Write(t1.Get(TriadNumber.FIRST).ToString("D2") + "-" + t1.Get(TriadNumber.SECOND).ToString("D2") + "-" + t1.Get(TriadNumber.THIRD).ToString("D2") + "  ");
+                            Console.Write(t2.Get(TriadNumber.THIRD).ToString("D2") + "-" + t2.Get(TriadNumber.SECOND).ToString("D2") + "-" + t2.Get(TriadNumber.FIRST).ToString("D2") + "\n");
                         }
                         else
                         {
@@ -193,11 +194,14 @@ namespace Lab5
             while (_runningFlag)
             {
                 PrintData();
+                Console.WriteLine();
                 Menu();
+                Console.WriteLine();
                 try
                 {
                     var choice = Convert.ToInt32(Console.ReadLine());
                     Execute(choice);
+                    Console.WriteLine();
                 }
                 catch (Exception e)
                 {

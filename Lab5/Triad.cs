@@ -75,6 +75,7 @@ namespace Lab5
                 default:
                     throw new ArgumentOutOfRangeException(nameof(number), number, "Invalid triad number");
             }
+            Round();
         }
 
         protected void Set(TriadNumber number, int x)
