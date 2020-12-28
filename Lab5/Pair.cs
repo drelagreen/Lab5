@@ -13,8 +13,8 @@ namespace Lab5
 
         public Pair(Triad key, Triad value)
         {
-            this._key = key;
-            this._value = value;
+            _key = key;
+            _value = value;
         }
 
         public Triad GetKey()
@@ -29,12 +29,12 @@ namespace Lab5
 
         public void SetKey(Triad key)
         {
-            this._key = key;
+            _key = key;
         }
 
         public void SetValue(Triad value)
         {
-            this._value = value;
+            _value = value;
         }
     }
 }
